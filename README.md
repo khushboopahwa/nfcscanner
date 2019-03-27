@@ -6,7 +6,8 @@ What is CoreNFC?
 “Using Core NFC, you can read Near Field Communication (NFC) tags of types 1 through 5 that contain data in the NFC Data Exchange Format (NDEF). To read a tag, your app creates an NFC NDEF reader session and provides a delegate. A running reader session polls for NFC tags and calls the delegate when it finds tags that contain NDEF messages, passing the messages to the delegate. The delegate can read the messages and handle conditions that can cause a session to become invalid.”
 - Apple’s official documentation on CoreNFC.
 
-NDEF
+What is NDEF ?
+
 NDEF (NFC Data Exchange Format) is a protocol provided by the NFC Forum which is used to describe how a NFC tag must expose data. Every NDEF record is made up by two components:
 A record type (check out this doc)
 Payload data
